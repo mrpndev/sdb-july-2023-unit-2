@@ -44,3 +44,11 @@ function scope3() {
 scope3();
 
 console.log(z); // 15 ? 12
+
+/* 
+  ? Module scope
+  * import/export modules from elsewhere
+*/
+
+const states = require("./states")
+console.log(states)
